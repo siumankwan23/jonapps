@@ -1,7 +1,7 @@
 # app.py
 
 #from dotenv import find_dotenv, load_dotenv
-from langchain_openai import ChatOpenAI
+from langchain_openai import OpenAI
 #from langchain_core.prompts import ChatPromptTemplate
 #from langchain_openai import OpenAI
 
@@ -15,7 +15,7 @@ import os
 api_key = os.environ["OPENAI_API_KEY"]
 print("test")
 print(api_key)
-llm = ChatOpenAI(api_key=api_key)
+llm = OpenAI(api_key=api_key)
 #load_dotenv(find_dotenv())
 
 # Sidebar contents
