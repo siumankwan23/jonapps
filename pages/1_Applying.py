@@ -4,6 +4,7 @@
 from langchain_openai import ChatOpenAI
 #from langchain_core.prompts import ChatPromptTemplate
 #from langchain_openai import OpenAI
+from streamlit_extras.buy_me_a_coffee import button
 
 #import requests
 
@@ -23,6 +24,10 @@ with st.sidebar:
     st.title('💬 Resume Helper and Cover Letter Generator')
     st.markdown('''
                 ''')
+st.write("Siumankwan23@gmail.com")
+st.write("Support Me")
+button(username="siumankwan23", floating=False, width=221)
+st.sidebar.success("Select a tool above.")
 
 # Main function
 def main():
