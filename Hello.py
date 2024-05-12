@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_extras.buy_me_a_coffee import button
 
 st.set_page_config(
     page_title="Job Hunt",
@@ -6,7 +7,9 @@ st.set_page_config(
 )
 
 st.write("# Welcome to JobApp! 👋")
-
+st.write("Siumankwan23@gmail.com")
+st.write("Support Me")
+button(username="siumankwan23", floating=False, width=221)
 st.sidebar.success("Select a tool above.")
 
 st.markdown(
